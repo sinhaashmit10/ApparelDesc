@@ -15,8 +15,8 @@
     flex-direction: row;
     align-items: center;
     text-align: center; 
-    margin: 1rem;
-    padding: 1.5rem 2rem;
+    margin-bottom: 2.5rem;
+    padding: 0 2rem;
     border-radius: 0.5rem;
   }
   
@@ -25,20 +25,18 @@
     font-size: 2.5rem;
     font-weight: 600;
     padding-top: 3rem;
-    margin-bottom: 1.5rem;
 }
 
 .aboutDesc{
     margin-bottom: 1rem;
-    /* margin-top: 0.5rem; */
     font-weight: 400;
     font-size: 1rem;
     max-width: 35rem;
-    padding: 0 2rem;
+    padding: 0 0.5rem;
 }
 
 .aboutImg{
-    object-fit:contain;
+    object-fit: contain;
     height: 40vh;
     width: 40vh;
 }
@@ -92,4 +90,10 @@
     max-width: 35rem;
     padding: 0 2rem;
     margin-bottom: 2.5rem;
+}
+
+.embroideryPara{
+    margin-bottom: 2.5rem;
+    padding: 0 2rem;
+    max-width: 35rem;
 }
