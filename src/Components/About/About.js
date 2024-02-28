@@ -8,13 +8,13 @@ function About() {
       <img src="./Dress.jpg" alt="" className="aboutImg" />
       <div className="aboutContent">
         <div className="aboutTitleExp">
-            <div className="aboutDesc">Presenting our groundbreaking adaptive reversible garment, specifically tailored for individuals with visual impairments, aiming to improve functionality and comfort while eliminating the confusion of inside-out dressing. Meticulously crafted from a blend of cotton-poly for the main fabric, our garment prioritizes a comfortable and breathable experience that lasts throughout the day.
+            <div className="aboutDesc">Presenting a line of adaptive reversible garment, specifically tailored for individuals with visual impairments, aiming to improve functionality and comfort while eliminating the confusion of inside-out dressing. Meticulously crafted from a blend of cotton-poly for the main fabric, our garment prioritizes a comfortable and breathable experience that lasts throughout the day.
             </div>  
           </div>
       </div>
       <div className="emroidery">
         <h1 className="emroideryTitle">Embroidery</h1>
-        <p className="embroideryPara">Embroidered with the poignant message "Blind Faith" on the neck side, showcasing our commitment to empowering the visually impaired. The sleeves feature uplifting phrases in braille: the left sleeve reads, "So truly where there is hardship, there is also ease," and the right sleeve carries the message, "A blind person who sees is better than a seeing person who is blind." This embroidery adds elegance while spreading positivity and awareness. Crafted with a comfortable cotton-poly blend, ensuring a breathable wear throughout the day. Pockets are strategically designed to accommodate folding canes up to 12 inches, offering seamless fit and easy storage.</p>
+        <p className="embroideryPara">Embroidered with "Blind Faith" on the neck side. The left sleeve reads, "So truly where there is hardship, there is also ease," and the right sleeve carries the message, "A blind person who sees is better than a seeing person who is blind." </p>
       </div>
       <div className="functionGarment">
         <h1 className="functionHeading">Functions of Garment</h1>
