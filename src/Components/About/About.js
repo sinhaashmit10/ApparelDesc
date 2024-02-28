@@ -22,8 +22,8 @@ function About() {
             <ul>
             <li>Adaptive</li>
             <li>Reversible</li>
-            <li>Cane Holding Pocket</li>
-            <li>Segmented Pocket</li>
+            <li>Cane Holding Pocket(Capacity: 12 inches)</li>
+            <li>Segmented Pocket(Each Side)</li>
             <li>Braille Embroidery</li>
             <li>Side Stripes</li>
             </ul>
@@ -36,6 +36,12 @@ function About() {
       <div className="materialCare">
         <h1 className="materialTitle">Material</h1>
         <div className="material">Cotton: 80% <br /> Polyster: 20%</div>
+      <h1 className='sizeFitTitle'>Size & Fit</h1>
+      <div className='sizeFit'>
+        <p className='size'>Size: Medium (M)</p>
+        <p className='fit'>Brand Fit: Classic Regular Fit</p>
+        <p className='chest'>Chest: 36-37'</p>
+      </div>
         <h1 className="careTitle">Washing Instructions</h1>
         <section className="washingInstruction">
           <div className="instructionBar">
