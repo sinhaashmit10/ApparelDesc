@@ -14,7 +14,16 @@ function About() {
       </div>
       <div className="functionGarment">
         <h1 className="functionHeading">Functions of Garment</h1>
-        <div className="functionDesc">Adaptive, Reversible, Cane Holding Pocket, Segmented Pocket, Braille Embroidery & Side Stripes.</div>
+        <div className="functionDesc">
+            <ul>
+            <li>Adaptive</li>
+            <li>Reversible</li>
+            <li>Cane Holding Pocket</li>
+            <li>Segmented Pocket</li>
+            <li>Braille Embroidery</li>
+            <li>Side Stripes</li>
+            </ul>
+          </div>
       </div>
       <div className="color">
         <h1 className="colorTitle">Color of the Garment</h1>
