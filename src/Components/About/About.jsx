@@ -4,16 +4,18 @@ import './About.css';
 function About() {
   return (
     <section id='about'>
-      <div className="aboutTitle">Adaptive Reversible Garment</div>
+      <div className="aboutTitle">Blind Faith</div>
       <img src="./Dress.jpg" alt="" className="aboutImg" />
+      <h1 className="brandTitle">Adaptive Reversible Garment</h1>
       <div className="aboutContent">
         <div className="aboutTitleExp">
-            <div className="aboutDesc">Presenting a line of adaptive reversible garment, specifically tailored for individuals with visual impairments, aiming to improve functionality and comfort while eliminating the confusion of inside-out dressing. Meticulously crafted from a blend of cotton-poly for the main fabric, our garment prioritizes a comfortable and breathable experience that lasts throughout the day.
+            <div className="price">MRP: Rs. 999/-</div>
+            <div className="aboutDesc">Presenting a line of adaptive reversible garment, specifically tailored and manufactured in India for individuals with visual impairments, aiming to improve functionality and comfort while eliminating the confusion of inside-out dressing. Meticulously crafted from a blend of cotton-poly for the main fabric, our garment prioritizes a comfortable and breathable experience that lasts throughout the day.
             </div>  
           </div>
       </div>
-      <div className="emroidery">
-        <h1 className="emroideryTitle">Embroidery</h1>
+      <div className="embroidery">
+        <h1 className="embroideryTitle">Embroidery</h1>
         <p className="embroideryPara">Embroidered with "Blind Faith" on the neck side. The left sleeve reads, "So truly where there is hardship, there is also ease," and the right sleeve carries the message, "A blind person who sees is better than a seeing person who is blind." </p>
       </div>
       <div className="functionGarment">

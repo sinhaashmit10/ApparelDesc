@@ -18,13 +18,23 @@
     margin-bottom: 2.5rem;
     padding: 0 2rem;
     border-radius: 0.5rem;
-  }
+}
+
+.price{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
   
   
 .aboutTitle{
     font-size: 2.5rem;
     font-weight: 600;
-    padding-top: 3rem;
+    padding-top: 1rem;
+}
+
+.brandTitle{
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 .aboutDesc{
@@ -77,7 +87,8 @@
 }
 
 .materialCare{
-    margin-bottom: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 
 .material{
@@ -90,6 +101,10 @@
     max-width: 35rem;
     padding: 0 2rem;
     margin-bottom: 2.5rem;
+}
+
+.embroidery{
+    margin-top: 3rem;
 }
 
 .embroideryPara{
