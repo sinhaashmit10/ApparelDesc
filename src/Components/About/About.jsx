@@ -10,7 +10,7 @@ function About() {
       <div className="aboutContent">
         <div className="aboutTitleExp">
             <div className="price">MRP: Rs. 999/-</div>
-            <div className="aboutDesc">Presenting a line of adaptive reversible garment, specifically tailored and manufactured in India for individuals with visual impairments, aiming to improve functionality and comfort while eliminating the confusion of inside-out dressing. Meticulously crafted from a blend of cotton-poly for the main fabric, our garment prioritizes a comfortable and breathable experience that lasts throughout the day.
+            <div className="aboutDesc">Presenting a line of adaptive reversible garment, specifically tailored and manufactured in India for individuals with visual impairments.
             </div>  
           </div>
       </div>

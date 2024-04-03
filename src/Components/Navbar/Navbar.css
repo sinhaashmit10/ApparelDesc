@@ -1,23 +1,23 @@
 .navbar{
     background: rgb(30, 30, 30);
-    height: 3rem;
+    height: 5rem;
     width: 100vw;
     max-width: 80rem;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 3;
 }
 
-/* .logo{
-    object-fit: cover;
+.logo{
+    object-fit: contain;
     height: 3rem;
     width: 4rem;
-} */
+}
 
 .desktopMenuListItem{
     margin: 1rem;
@@ -34,11 +34,9 @@
     background: white;
     color: black;
     border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right: 1rem;
-    border-radius: 2rem;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 1rem;
 }
 
 .desktopMenuImg{
