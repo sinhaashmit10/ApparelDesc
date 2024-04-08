@@ -1,0 +1,47 @@
+#description{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.descriptionTitle{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.btnOne{
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    padding: 0.5rem;
+}
+.btnTwo{
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    padding: 0.5rem;
+}
+.btnThree{
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+.descArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw; */
+    /* height: 75vh; */
+    border: 1px solid;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}

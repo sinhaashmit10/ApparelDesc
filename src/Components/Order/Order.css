@@ -9,3 +9,22 @@
     text-align: center;
     margin: auto;
 }
+
+.orderTitle{
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.paymentBtn{
+    padding: 1rem;
+    border-radius: 1rem;
+    color: aliceblue;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.paymentBtn:hover{
+    color: red;
+}

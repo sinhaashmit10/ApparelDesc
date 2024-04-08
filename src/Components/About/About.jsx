@@ -1,8 +1,11 @@
 import React from 'react';
 import './About.css';
-
+// import Order from '../Order/Order';
+import Navbar from '../Navbar/Navbar';
 function About() {
   return (
+    <>
+    <Navbar/>
     <section id='about'>
       <div className="aboutTitle">Blind Faith</div>
       <img src="./Dress.jpg" alt="" className="aboutImg" />
@@ -76,8 +79,9 @@ function About() {
           </div>
         </section>
       </div>
-
+      {/* <Order/> */}
     </section>
+    </>
   );
 }
 

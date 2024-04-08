@@ -1,26 +1,25 @@
+// App.js
+import React, { useState } from 'react';
 import About from "./Components/About/About";
+import Description from "./Components/Description/Description";
 import Order from "./Components/Order/Order";
-import Navbar from "./Components/Navbar/Navbar";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
 
 function App() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <About/>
-    },
-    {
-      path: "order",
-      element: <Order/>
-    }
-  ])
-  return(
+  const [showAbout, setShowAbout] = useState(true);
+  const [showDescription, setShowDescription] = useState(false);
+
+  const handlePaymentComplete = () => {
+    setShowAbout(false);
+    setShowDescription(true);
+  };
+
+  return (
     <div className="App">
-      <Navbar/>
-      <RouterProvider router={router}/>
+      {showAbout && <About />}
+      {showDescription && <Description />}
+      {showAbout && !showDescription && <Order onPaymentComplete={handlePaymentComplete} />}
     </div>
-  )
+  );
 }
 
 export default App;
