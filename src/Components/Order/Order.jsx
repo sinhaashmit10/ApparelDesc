@@ -36,7 +36,7 @@ function Order({ onPaymentComplete }) {
               contact: "",
             },
             notes: {
-              address: "Razorpay Corporate Office",
+              address: "Blind Faith Foundation",
             },
             theme: {
               color: "#3399cc",

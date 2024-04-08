@@ -10,6 +10,15 @@
     margin: auto;
 }
 
+.renderComponents{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 1.5rem;
+}
+
 .aboutContent {
     display: flex;
     flex-direction: row;
@@ -22,7 +31,7 @@
 
 .price{
     margin-bottom: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
   
   
@@ -38,7 +47,7 @@
 }
 
 .aboutDesc{
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     font-weight: 400;
     font-size: 1rem;
     max-width: 35rem;
@@ -57,7 +66,7 @@
 
 .functionDesc{
     max-width: 35rem;
-    margin-bottom: 2.5rem;
+    /* margin-bottom: 2.5rem; */
     padding: 0 2rem;
 }
 
@@ -86,36 +95,36 @@
     margin-left: 0.5rem;
 }
 
-.materialCare{
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-}
+
 
 .material{
     padding: 0.5rem 0;
-    background-color: rgb(50, 50, 50);
-    margin-bottom: 2.5rem;
 }
 
 .colorPara{
     max-width: 35rem;
     padding: 0 2rem;
-    margin-bottom: 2.5rem;
 }
 
-.embroidery{
-    margin-top: 3rem;
-}
 
 .embroideryPara{
-    margin-bottom: 2.5rem;
     padding: 0 2rem;
     max-width: 35rem;
 }
 
 .sizeFit{
-    margin-bottom: 2.5rem;
-    background-color: rgb(50, 50, 50);
+    /* background-color: rgb(50, 50, 50); */
     padding: 0.5rem 0;
     max-width: 35rem;
+}
+
+.renderBtn{
+    align-items: center;
+}
+
+.btn{
+    margin: 0.8rem;
+    width: 8rem;
+    height: 3rem;
+    color: white;
 }
