@@ -25,7 +25,7 @@ const Description = () => {
         <div className="descriptionTitle">Clothing Description</div>
         <div className="btnClass">
           <button className="btnOne" onClick={showWashing}>Washing Instruction</button>
-          <button className="btnTwo" onClick={showMaterialColor}>Color of Cloth</button>
+          <button className="btnTwo" onClick={showMaterialColor}>Material & Color</button>
           <button className="btnThree" onClick={showSizeFit}>Size and Fit</button>
           <div className="descArea">
             {selectedComponent === 'washing' && <Washing />}

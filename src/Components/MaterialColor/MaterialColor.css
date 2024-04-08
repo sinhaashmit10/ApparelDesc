@@ -1,0 +1,17 @@
+.materialColor{
+    display: flex;
+    flex-direction: column;
+}
+.Title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.colorTitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.Material{
+    margin-bottom: 1rem;
+}

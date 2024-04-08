@@ -1,4 +1,5 @@
 import React from 'react'
+import './Washing.css'
 
 function Washing() {
   return (

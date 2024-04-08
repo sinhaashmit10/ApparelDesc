@@ -1,0 +1,9 @@
+.sizeFit2{
+    display: flex;
+    flex-direction: column;
+}
+
+.sizeFitTitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
