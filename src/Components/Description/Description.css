@@ -17,24 +17,14 @@
     margin-bottom:1rem ;
 }
 
-.btnOne{
-    width: 10rem;
+.Btn{
+    width:10rem;
     height: 3rem;
     color: white;
     padding: 0.5rem;
+    margin: 0.5rem;
 }
-.btnTwo{
-    width: 10rem;
-    height: 3rem;
-    color: white;
-    padding: 0.5rem;
-}
-.btnThree{
-    width: 10rem;
-    height: 3rem;
-    color: white;
-    padding: 0.5rem;
-}
+
 
 .descArea{
     display: flex;
@@ -43,6 +33,7 @@
     /* width: 100vw; */
     /* height: 75vh; */
     border: 1px solid;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     padding: 1rem;
 }

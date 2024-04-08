@@ -114,6 +114,12 @@ function About() {
                   <p className="instruction">Do not dry clean.</p>
                 </div>
               </section>
+              <section className="washingInstruction">
+                <div className="instructionBar">
+                  <img src="./donotiron.svg" alt="" className="instructionImg" />
+                  <p className="instruction">Do not iron on decoration.</p>
+                </div>
+              </section>
             </div>
           )}
         </div>
