@@ -21,9 +21,9 @@ function Order({ onPaymentComplete }) {
             key: "rzp_test_m3BUdDY8FcNAGc", // Replace with your Razorpay Key ID
             amount: amount,
             currency: "INR",
-            name: "Acme Corp",
+            name: "Blind Faith",
             description: "Test Transaction",
-            image: "https://example.com/your_logo",
+            image: "apparel.svg",
             handler: (response) => {
               alert(response.razorpay_payment_id);
               alert(response.razorpay_order_id);
@@ -31,9 +31,9 @@ function Order({ onPaymentComplete }) {
               onPaymentComplete(); // Call the function provided by the parent component
             },
             prefill: {
-              name: "Piyush Garg",
-              email: "youremail@example.com",
-              contact: "9999999999",
+              name: "",
+              email: "",
+              contact: "",
             },
             notes: {
               address: "Razorpay Corporate Office",
