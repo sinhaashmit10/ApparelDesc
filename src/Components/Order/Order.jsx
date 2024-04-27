@@ -18,7 +18,7 @@ function Order({ onPaymentComplete }) {
           const amount = parseFloat(priceText.replace('MRP: Rs. ', '').replace('/-', '')) * 100;
 
           const options = {
-            key: "rzp_test_m3BUdDY8FcNAGc", // Replace with your Razorpay Key ID
+            key: "rzp_test_lsOaIBrBSqyL4F", // Replace with your Razorpay Key ID
             amount: amount,
             currency: "INR",
             name: "Blind Faith",
